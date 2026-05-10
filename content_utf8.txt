@@ -1,0 +1,670 @@
+﻿<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#" lang="pt-br">
+<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><meta name="theme-color" content="#004a77">
+		<link rel="icon" href="https://www.radios.com.br/favicon.ico" sizes="any" type="image/x-icon">
+		<link rel="icon" href="https://static.radios.com.br/img/favicon-192x192.png" sizes="192x192" type="image/png">
+		<link rel="icon" href="https://static.radios.com.br/img/favicon-512x512.png" sizes="512x512" type="image/png">
+		<link rel="apple-touch-icon" href="https://static.radios.com.br/img/apple-touch-icon.png">
+		<title>Rádio Comunitária Luz do Sertão FM 87.9 - Uauá / BA - Brasil | Radios.com.br</title><link rel='stylesheet' type='text/css' href='https://static.radios.com.br/libs/bootstrap/3.3.4.c/css/bootstrap.min.css'><link rel='stylesheet' type='text/css' href='https://static.radios.com.br/templates/main/base.1755214603.css'><link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel='stylesheet' type='text/css' href='https://static.radios.com.br/libs/flowplayer-html/7.2.6/skin/skin.1645217214.css'><link rel='stylesheet' type='text/css' href='https://static.radios.com.br/libs/flowplayer-html/7.2.6/audio/flowplayer.audio.1645217214.css'><meta name="description" content="Ouça ao vivo Rádio Comunitária Luz do Sertão FM 87.9 - Uauá / BA - Brasil [Comunitárias]. Acesse essa rádio online pelo Radios.com.br!"><link rel="canonical" href="https://www.radios.com.br/aovivo/radio-comunitaria-luz-do-sertao-879-fm/30938" /><meta property='og:type' content='music.radio_station'/><meta property='og:image' content='https://img.radios.com.br/radio/md/radio30938_1689356801.jpg'/><meta property='og:url' content='https://www.radios.com.br/aovivo/radio-comunitaria-luz-do-sertao-879-fm/30938'/><meta property='og:site_name' content='Radios.com.br'/><meta property='og:title' content='Rádio Comunitária Luz do Sertão FM 87.9'/><meta property='og:description' content='Ouça Rádio Comunitária Luz do Sertão FM 87.9 no portal Radios.com.br e no app RadiosNet!'/><meta property='og:image:width' content='200'/><meta property='og:image:height' content='200'/>
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-RMHRFX79D9"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag("js", new Date())
+					gtag("config", "G-RMHRFX79D9");
+				</script>
+				
+				<script src="https://www.gstatic.com/firebasejs/9.6.5/firebase-app-compat.js"></script>
+				<script src="https://www.gstatic.com/firebasejs/9.6.5/firebase-analytics-compat.js"></script>
+				<script src="https://www.gstatic.com/firebasejs/9.6.5/firebase-auth-compat.js"></script>
+
+				<script>
+				var firebaseConfig = {
+					apiKey: "AIzaSyBcjjA69xB5NZvhtzI0yCAUru-IDDbto1c",
+					authDomain: "radios-net.firebaseapp.com",
+					databaseURL: "https://radios-net.firebaseio.com",
+					projectId: "radios-net",
+					storageBucket: "radios-net.appspot.com",
+					messagingSenderId: "913329241207",
+					appId: "1:913329241207:web:be499a8148ae4669",
+					measurementId: "G-4LDNWC54HH"
+				};
+				// Initialize Firebase
+				firebase.initializeApp(firebaseConfig);
+				firebase.analytics();
+				</script>
+
+				<script src="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth__pt_br.js"></script>
+				<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.css"/>
+				<!--[if lt IE 9]>
+			<script src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js'></script>
+			<script src='https://static.radios.com.br/libs/respond/1.4.2/respond.min.js'></script>
+			<link href='https://static.radios.com.br/libs/respond/1.4.2/respond-proxy.html' id='respond-proxy' rel='respond-proxy' />
+			<link href='https://www.radios.com.br/static/libs/respond/1.4.2/respond.proxy.gif' id='respond-redirect' rel='respond-redirect'>
+			<script src='https://www.radios.com.br/static/libs/respond/1.4.2/respond.proxy.js'></script>
+			<![endif]--><script type="text/javascript">if (top != self){top.location.replace(window.location.href)}</script></head>
+<body class="player-page player-http">
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v13.0&appId=721797961496004" nonce="BQSxqGrH"></script>
+	<!-- navbar -->
+	
+<div id="navbar-main-menu" class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand"  href="https://www.radios.com.br"><img alt="Logo Radios.com.br" src="https://static.radios.com.br/img/navbar-logo-96-transparent.png"><span class="hidden-md hidden-sm">Radios.com.br</span></a>
+			<button class="navbar-toggle collapsed" type="button" data-toggle="offcanvas" data-target="#main-menu" data-canvas="body">
+				<span class="sr-only">Abrir menu de navegação</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<button id="open-search-nav-mobile" data-toggle="search-nav" type="button" class="btn btn-link navbar-btn visible-xs-inline-block"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></button>
+
+		</div>
+		<div class="navbar-offcanvas offcanvas" id="main-menu">
+
+
+			<button id="open-search-nav" data-toggle="search-nav" type="button" class="btn btn-link navbar-btn navbar-right hidden-xs"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="hidden-sm"> Buscar</span></a></button>
+			
+			<h2 class="navmenu-brand">Menu</h2>
+			<ul class="nav navbar-nav">
+				<li class="visible-xs-block">
+					<a id="open-account-unsigned-navmobile" href="https://www.radios.com.br/favoritos">
+						<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Entrar ou cadastrar</span>
+					</a>
+					<a id="open-account-signed-navmobile" href="https://www.radios.com.br/favoritos">
+						<img id="account-navmobile-user-photo" alt="Imagem de perfil da conta" src=""> <small id="account-navmobile-user-name"></small>
+					</a>
+				</li>
+				<li><a href="https://www.radios.com.br/favoritos">Favoritos</a></li>
+				<li><a href="https://www.radios.com.br/lista/pais/brasil/33"><span class="hidden-sm">Rádios </span>Brasil</a></li>
+				<li><a href="https://www.radios.com.br/lista/pais"><span class="hidden-sm">Rádios </span>Mundiais</a></li>
+				<li><a href="https://www.radios.com.br/lista/segmento"><span class="hidden-sm">Por</span> Segmento</a></li>
+				<li><a href="https://www.radios.com.br/futebol">Futebol <span class="hidden-sm hidden-md">ao Vivo</span></a></li>
+				<li><a href="https://www.radios.com.br/estatistica">Estatística</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contato <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="https://www.radios.com.br/adicionar">Adicionar Rádio</a></li>
+						<li><a href="https://www.radios.com.br/atualizar">Atualizar Rádio</a></li>
+						<li><a href="https://www.radios.com.br/excluir">Excluir Rádio</a></li>
+						<li><a href="https://www.radios.com.br/anunciar">Como ter mais ouvintes?</a></li>
+						<li><a href="https://www.radios.com.br/divulgue">Banners Divulgação</a></li>
+						<li><a href="https://www.radios.com.br/contato">Dep. Financeiro</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div id="search-nav-wrapper">
+			<div class="container">
+							<form id="search-nav" name="search" class="form-search  " action="https://www.radios.com.br/busca" role="search">
+			
+				<div class="form-group">
+					<label class="sr-only" for="search-query">Busca de rádio: digite o nome, cidade, país...</label>
+					<div class="input-group">
+						<input name="q" type="text" class="search-q form-control " value="" placeholder="Buscar rádios,cidades,países...">
+						<input name="qfilter" class="search-qfilter" type="hidden" value="completo">
+						<div class="input-group-btn">
+							<button class="btn btn-default " type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+							<button id="close-search-nav" class="btn btn-default " type="button"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="hidden-xs"> Fechar</span></button>
+							<button type="button" class="btn btn-default  dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only">Filtros de busca</span>
+							</button>
+							<ul class="search-filters dropdown-menu" role="menu">
+								<li role="presentation" class="dropdown-header">Filtro de busca</li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#completo">Completo</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#nome">Por Nome</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#cidade">Por Cidade</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#uf">Por Estado</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#pais">Por País</a></li>
+							  </ul>
+						</div>
+						</div>
+				</div>
+			</form>
+			</div>
+		</div>
+
+	</div>
+</div>
+	<!-- masthead -->
+	<div id="masthead" class="jumbotron">
+		<div id="hero-header" class="container">
+						<form id="search-hero" name="search" class="form-search form-inline " action="https://www.radios.com.br/busca" role="search">
+				<div class="form-group hidden-xs">
+					<a class="ios-store store-badge brightness-when-hover" target="_blank" title="Baixe o app RadiosNet no seu iPhone ou iPad" data-toggle="tooltip" href="https://itunes.apple.com/br/app/radiosnet/id1089290449?mt=8">
+					<img alt="Baixar na AppStore" src="https://static.radios.com.br/img/ios-appstore-badge-ptbr.png" width="142" height="42"/>
+					</a>
+				</div>
+			
+				<div class="form-group">
+					<label class="sr-only" for="search-query">Busca de rádio: digite o nome, cidade, país...</label>
+					<div class="input-group">
+						<input name="q" type="text" class="search-q form-control input-lg" value="" placeholder="Buscar rádios,cidades,países...">
+						<input name="qfilter" class="search-qfilter" type="hidden" value="completo">
+						<div class="input-group-btn">
+							<button class="btn btn-default btn-lg" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+							<button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only">Filtros de busca</span>
+							</button>
+							<ul class="search-filters dropdown-menu" role="menu">
+								<li role="presentation" class="dropdown-header">Filtro de busca</li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#completo">Completo</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#nome">Por Nome</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#cidade">Por Cidade</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#uf">Por Estado</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#pais">Por País</a></li>
+							  </ul>
+						</div>
+						</div>
+				</div>
+				<div class="form-group hidden-xs">
+					<a class="android-store store-badge brightness-when-hover" target="_blank" title="Baixe o app RadiosNet no seu Android" data-toggle="tooltip" href="https://play.google.com/store/apps/details?id=br.com.radios.radiosmobile.radiosnet&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+					<img alt="Disponível no Google Play" src="https://static.radios.com.br/img/android-store-badge-ptbr.png" width="142" height="42"/>
+					</a>
+				</div>
+				<div class="form-group visible-xs-inline-block">
+					<a class="ios-store store-badge brightness-when-hover" target="_blank" title="Baixe o app RadiosNet no seu iPhone ou iPad" data-toggle="tooltip" href="https://itunes.apple.com/br/app/radiosnet/id1089290449?mt=8">
+					<img alt="Baixar na AppStore" src="https://static.radios.com.br/img/ios-appstore-badge-ptbr.png" width="142" height="42"/>
+					</a>
+				</div>
+				<div class="form-group visible-xs-inline-block">
+					<a class="android-store store-badge brightness-when-hover" target="_blank" title="Baixe o app RadiosNet no seu Android" data-toggle="tooltip" href="https://play.google.com/store/apps/details?id=br.com.radios.radiosmobile.radiosnet&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+					<img alt="Disponível no Google Play" src="https://static.radios.com.br/img/android-store-badge-ptbr.png" width="142" height="42"/>
+					</a>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- page -->
+	<div id="page" class="container">
+		<div class="row">
+			<!-- main -->
+			<div id="main" class="col-sm-12">
+				<div class="row">
+
+					<!-- aside-ads -->
+					<div id="aside-ads">
+						<div id = 'adslot-3' class='gads '><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><p class="ads-label">Anúncios</p>
+						<!-- Banner 300x250 http lateral 1 -->
+						<style>
+							.player-300x250-a { width: 336px; height: 280px; }
+							@media (max-width: 1199px) and (min-width: 992px){ .player-300x250-a { width: 300px; height: 250px; } }
+							@media (max-width: 991px) { .player-300x250-a { display:none!important } }
+						</style>
+						<ins class="adsbygoogle player-300x250-a adslot-3"
+							style="display:inline-block;"
+							data-ad-client="ca-pub-1702218203115924"
+							data-ad-slot="2608780067"
+							data-full-width-responsive="true"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>	
+						</div><div id = 'adslot-4' class='gads '><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><p class="ads-label">Anúncios</p>
+						<!-- Banner 300x250 http lateral 2 -->
+						<style>
+							.player-300x250-b { width: 336px; height: 280px; }
+							@media (max-width: 1199px) and (min-width: 992px){ .player-300x250-b { width: 300px; height: 250px; } }
+							@media (max-width: 991px) { .player-300x250-b { display:none!important } }
+						</style>
+						<ins class="adsbygoogle player-300x250-b adslot-4"
+							style="display:inline-block;"
+							data-ad-client="ca-pub-1702218203115924"
+							data-ad-slot="6564336942"
+							data-full-width-responsive="true"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>	
+						</div>					</div>
+
+					<!-- content -->
+					<div id="content" class="panel panel-default">
+						<div class="panel-body">
+	<div class="row">
+		<div class="col-sm-6">
+
+			<div id="player-section">
+
+				<div id="player-infos">
+					<div class="logo">
+						<div class="thumbnail"><img class="img-rounded" width="100" height="100" src="https://img.radios.com.br/radio/lg/radio30938_1689356801.jpg" alt="Rádio Comunitária Luz do Sertão 87.9 FM"></div>
+					</div>
+
+					<div class="info">
+						<h1>Rádio Comunitária Luz do Sertão 87.9 FM</h1>
+						<h2>Uauá / BA - Brasil</h2>
+									<p class="slogan">A rádio da comunidade!</p>
+								</div>
+				</div>
+
+				<hr class="hidden-xs">
+				<div id="player-audio">            <div id="player-loading" class="text-center">Carregando player<br><img src="https://img.radios.com.br/layout/loader.gif" alt="Carregando"></div>
+            <noscript class="text-red">Para que a rádio toque, o seu navegador deve estar com o JavaScript ativado!</noscript>
+        </div>
+	
+			</div>
+
+							<div id = 'adslot-1' class='gads '><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><p class="ads-label player-300x250-c-label">Anúncios</p>
+						<!-- Banner 300x250 http central -->
+						<style>
+							.player-300x250-c { display:none; } .player-300x250-c-label { display:none; }
+							@media (max-width: 767px) { .player-300x250-c { width: 336px; height: 280px; } .player-300x250-c-label { display:block; } }
+						</style>
+						<ins class="adsbygoogle player-300x250-c adslot-1"
+							style="display:inline-block;"
+							data-ad-client="ca-pub-1702218203115924"
+							data-ad-slot="4059083792"
+							data-full-width-responsive="true"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>	
+						</div>						<hr>
+			<div class="onair"></div>
+
+			<div id="votacao" class="well">
+				<span id="votacao-message">Você gostou desta rádio?</span>
+				<br>
+				<button id="action-votar" class="btn btn-sm btn-success" type="button" data-toggle="tooltip" title="Curtir a rádio" disabled><i class="fa fa-thumbs-up fa-2x" aria-hidden="true"></i> <span id="votacao-status">Carregando...</span></a>
+			</div>
+
+			<div id="social-links">
+				<h4>Compartilhe!</h4>
+					<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Eu estou ouvindo Rádio Comunitária Luz do Sertão FM 87.9 pelo Radios.com.br" data-via="radiosaovivo" data-hashtags="OuvirRadio" data-show-count="true">Tweet</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+					<div class="fb-like" data-href="https://www.radios.com.br/aovivo/radio-comunitaria-luz-do-sertao-879-fm/30938" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true" data-lazy="true"></div>
+			</div>
+
+			<hr>
+			<h4>Informações da rádio</h4>
+			<p><b>Segmentos:</b> 
+			<a href="https://www.radios.com.br/radio/segmento/comunitarias/5" title="Rádios Comunitárias" target="_blank">Comunitárias</a>			</p>
+			<p><b>Cidade:</b> <a href="https://www.radios.com.br/radio/cidade/uaua/6561" title="Rádios Uauá"target="_blank">Uauá</a></p>
+
+			<p><b>Região:</b> <a href="https://www.radios.com.br/radio/regiao/nordeste-baiano/16" title="Rádios Nordeste Baiano" target="_blank">Nordeste Baiano</a></p>
+			<p><b>Estado:</b> <a href="https://www.radios.com.br/radio/uf/bahia/5" title="Rádios Bahia" target="_blank">Bahia</a></p>
+			<p><b>País:</b> <a href="https://www.radios.com.br/radio/pais/brasil/33" title="Rádios Brasil" target="_blank">Brasil</a></p>
+			<p><b>Site:</b> <a href="https://www.radioluzdosertaofm.com.br/" rel="nofollow" target="_blank">https://www.radioluzdosertaofm.com.br/</a></p>
+			<hr>
+			<h4>Ajuda</h4>
+			<p><a class="action-ajuda-radio" href="#">Não consegui ouvir a rádio / Rádio fora do ar</a></p>
+			<p><a class="action-ajuda-anuncios" href="#">Anúncios de áudio durante a transmissão</a></p>
+
+			<hr>
+			<h4>Administrar</h4>
+			<p><a href="https://www.radios.com.br/graficos/radio-comunitaria-luz-do-sertao-879-fm/30938" target="_blank">Ver gráficos de acessos</a></p>
+			<p><a href="https://www.radios.com.br/atualizar?radio=30938" target="_blank">Atualizar informações da rádio</a></p>
+			<p><a href="https://www.radios.com.br/atualizar?radio=30938" target="_blank">Atualizar programação da rádio</a></p>
+			<p><a href="https://www.radios.com.br/atualizar?radio=30938" target="_blank">Atualizar streaming da rádio</a></p>
+			<p><a href="https://www.radios.com.br/excluir?radio=30938" target="_blank">Excluir rádio</a></p>
+
+			<hr>
+			<p><a href="https://www.radios.com.br/aovivo/radio-comunitaria-luz-do-sertao-879-fm/30938">Voltar para a página principal do player</a></p>
+
+		</div>
+
+		<div class="col-sm-6 text-center">
+					<div id = 'adslot-2' class='gads '><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><p class="ads-label">Anúncios</p>
+						<!-- Banner 300x600 http -->
+						<style>
+							.player-300x600 { width: 300px; height: 600px; }
+							@media (min-width: 768px){ .player-300x600 { width: 300px; height: 600px; } }
+							@media (max-width: 767px) { .player-300x600 { width: 336px; height: 280px; } }
+						</style>
+						<ins class="adsbygoogle player-300x600 adslot-2"
+							style="display:inline-block;"
+							data-ad-client="ca-pub-1702218203115924"
+							data-ad-slot="5234943401"
+							data-full-width-responsive="true"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>	
+						</div>
+		
+			<div id="download-desktop" class="player-download well hidden-xs hidden-sm">
+				<h4>Ouça Rádio Comunitária Luz do Sertão FM 87.9 no seu celular ou tablet</h4>
+
+				<a target="_blank" title="Ouça Rádio Comunitária Luz do Sertão FM 87.9 no seu iPhone ou iPad pelo RadiosNet" href="https://itunes.apple.com/br/app/radiosnet/id1089290449?mt=8">
+					<img alt="Baixar o app RadiosNet na AppStore" src="https://static.radios.com.br/img/ios-appstore-badge-ptbr.png" height="40">
+				</a>
+
+				<a target="_blank" title="Ouça Rádio Comunitária Luz do Sertão FM 87.9 no seu Android pelo RadiosNet" href="https://play.google.com/store/apps/details?id=br.com.radios.radiosmobile.radiosnet&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+					<img alt="Baixar o app RadiosNet no Google Play" src="https://static.radios.com.br/img/android-store-badge-ptbr.png" height="40">
+				</a>
+
+			</div>
+
+			<div id="download-mobile" class="player-download well hidden-md hidden-lg">
+				<img alt="Logo Radios.com.br" src="https://static.radios.com.br/img/navbar-logo-96-solid.png">
+				<h4>Ouça Rádio Comunitária Luz do Sertão FM 87.9 no seu celular ou tablet</h4>
+
+				<p>Para ouvir essa rádio, sugerimos que você instale o aplicativo <strong>RadiosNet</strong> para Android ou iOS.</p>
+				
+				<p>Para baixar o aplicativo é bem simples! Pressione o botão "<strong>Disponível no Google Play</strong>" se você estiver utilizando um dispositivo Android ou o botão "<strong>Baixar na AppStore</strong>" se estiver utilizando um dispositivo iOS.</p>
+				<p>
+					<a target="_blank" title="Ouça Rádio Comunitária Luz do Sertão FM 87.9no seu Android pelo RadiosNet" href="https://play.google.com/store/apps/details?id=br.com.radios.radiosmobile.radiosnet&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+						<img alt="Baixar o app RadiosNet no Google Play" src="https://static.radios.com.br/img/android-store-badge-ptbr.png" height="40">
+					</a>
+					<a target="_blank" title="Ouça Rádio Comunitária Luz do Sertão FM 87.9no seu iPhone ou iPad pelo RadiosNet" href="https://itunes.apple.com/br/app/radiosnet/id1089290449?mt=8">
+						<img alt="Baixar o app RadiosNet na AppStore" src="https://static.radios.com.br/img/ios-appstore-badge-ptbr.png" height="40">
+					</a>
+				</p>
+				
+				<p>Se o aplicativo já estiver instalado e você estiver utilizando um dispositivo Android, pressione o botão "<strong>Ouvir no RadiosNet Android</strong>" para abrir a rádio automaticamente no aplicativo.</p> 
+				<p><a href="intent://www.radios.com.br/aovivo/radio-comunitaria-luz-do-sertao-879-fm/30938#Intent;package=br.com.radios.radiosmobile.radiosnet;scheme=http;end;" class="btn btn-success" target="_blank"><i class="fa fa-play" aria-hidden="true"></i> Ouvir no RadioNet Android</a></p>
+
+			</div>
+
+			<div id="player-extras">			<div id="download-playlist" class="player-download well">
+				<h4>Player externo</h4>
+				<p>Ouvir no VLC, Winamp, Windows Media Player, etc</p>
+				<div class="btn-group btn-group-sm" role="group" aria-label="...">
+ <a href="https://www.radios.com.br/play/playlist/30938/listen-radio.asx" class="btn btn-default" title="Fazer download da playlist no formato ASX" target="_blank" rel="nofollow">ASX</a>  <a href="https://www.radios.com.br/play/playlist/30938/listen-radio.m3u" class="btn btn-default" title="Fazer download da playlist no formato M3U" target="_blank" rel="nofollow">M3U</a>  <a href="https://www.radios.com.br/play/playlist/30938/listen-radio.pls" class="btn btn-default" title="Fazer download da playlist no formato PLS" target="_blank" rel="nofollow">PLS</a> 				</div>
+			</div>
+        </div>
+		
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="ajuda-radio-modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-light-blue">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Solução de problemas</h4>
+			</div>
+			<div class="modal-body">
+				<p>O que você deseja? Por favor, escolha uma opção abaixo:</p>
+				<div class="list-group">
+					<a class="action-ajuda-submit list-group-item" data-type="radio-off" href="#">Informar que a rádio não tocou</a>
+					<a class="action-ajuda-open-link list-group-item" href="https://www.radios.com.br/atualizar?radio=30938" target="_blank">Atualizar alguma informação da rádio</a>
+
+				</div>
+				<div id="ajuda-loading">
+					<p class='text-center loading-panel loading-hidden'>Carregando<br><img src='https://img.radios.com.br/layout/loader.gif' alt='Carregando'></p>				</div>
+				<div id="ajuda-load"></div>
+				<p><b>Observação:</b> Não somos os responsáveis pela transmissão das rádios, o nosso site apenas "sintoniza" o que a rádio já transmite via Internet.</p>
+				<p>Do jeito que ela estiver transmitindo em seu link, será também transmitido em nosso site. Ou seja, se a transmissão da rádio via Internet estiver distorcida, cortando, com pouco volume ou com baixa qualidade, ela tocará da mesma maneira em nosso site.</p>
+				<p>Por não sermos os responsáveis, nem sempre será possível resolver o problema da rádio, principalmente se a transmissão dela via Internet estiver fora do ar.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ajuda-anuncios-modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-light-blue">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Anúncios durante a transmissão</h4>
+			</div>
+			<div class="modal-body">
+				<p>Informamos que o Radios.com.br não veicula propagandas de áudio durante uma transmissão.<br>Este tipo de áudio é gerado diretamente pela emissora e não pelo Radios.com.br, não sendo de nossa responsabilidade ou controle, podendo ocorrer até mesmo na nossa versão PRO.</p>
+				<p>Reforçando, não são anúncios de áudio inseridos pelo Radios.com.br, mas sim pela própria rádio geradora da transmissão.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Ok, entendi</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div id="footer-body" class="col-md-8 col-md-offset-4">
+					<p class="text-center"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> Copyright Radios.com.br | 1997 - 2026</p><ul class="list-unstyled list-inline text-center">
+	<li><a href="https://www.radios.com.br">Início</a></li>
+	<li><a href="https://www.radios.com.br/lista/pais/brasil/33">Rádios Brasil</a></li>
+	<li><a href="https://www.radios.com.br/lista/pais">Rádios Mundiais</a></li>
+	<li><a href="https://www.radios.com.br/lista/segmento">Por Segmento</a></li>
+	<li><a href="https://www.radios.com.br/futebol">Futebol ao Vivo</a></li>
+	<li><a href="https://www.radios.com.br/cnt/estatistica">Estatística</a></li>
+	<li><a href="https://www.radios.com.br/contato">Contato</a></li>
+	<li><a href="https://www.radios.com.br/anunciar">Anunciar Rádio</a></li>
+	<li><a href="https://www.radios.com.br/adicionar">Adicionar Rádio</a></li>
+	<li><a href="https://www.radios.com.br/atualizar">Atualizar Rádio</a></li>
+	<li><a href="https://www.radios.com.br/privacidade">Política de Privacidade</a></li>
+	<li><a href="https://www.radios.com.br/tos">Termos de Serviço</a></li>
+</ul>				</div>
+			</div>
+		</div>
+    </footer>
+	
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js' ></script><script src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js' ></script><script src='https://static.radios.com.br/libs/bootstrap/3.3.4.c/js/bootstrap.min.js' ></script><script src='https://static.radios.com.br/js/base.1700504856.js' ></script><script src='https://static.radios.com.br/libs/muses-player/2.3.1r/mrp.1645217214.js' ></script><script src='https://static.radios.com.br/libs/flowplayer-html/7.2.7/flowplayer.min.1645217214.js' ></script><script src='https://static.radios.com.br/libs/flowplayer-html/7.2.7/audio/flowplayer.audio.min.1645217214.js' ></script>            <script>
+                function initMuses(){
+                    MRP.setElementId("player-muses");
+                    MRP.insert({
+                    'url':'http://stm1.uauhost.com.br:7506/stream',
+                    'codec':'aac',
+                    'volume':90,
+                    'autoplay':true,
+                    'buffering':1,
+                    'title':'Player',
+                    'wmode':'transparent',
+                    'skin':'faredirfare',
+                    'width':300,
+                    'height':122,
+                    'tracking': false,
+                    'bgcolor':'#FFFFFF'
+                    });
+                }
+            </script>
+        		<script>
+            var countflowPlayerError = 0;
+            var sourcesFlowPlayer = [
+                    { type: "video/mp4",
+                      src:  "http://stm1.uauhost.com.br:7506/stream" },
+                    { type: "video/mp4",
+                      engine: "flash",
+                      src:  "http://stm1.uauhost.com.br:7506/stream?type=.flv" },
+                ];
+            
+            function initFlowPlayer(){          
+                flowplayer("#player-flow-html5", {
+                    clip: {
+                        audio:true,
+                        sources: sourcesFlowPlayer
+                    },
+                    autoplay: true,
+                    audioOnly: true,
+                    mutedAutoplay: false,
+                    live:true
+                }).on("error", function(e, api, err) {
+                    
+                    if(countflowPlayerError == 0 && (flowplayer.support.browser.msie || navigator.userAgent.indexOf("Trident/7") > -1)){
+                        flowplayer("#player-flow-html5").shutdown();
+                        sourcesFlowPlayer.splice(0, 1);
+                        initFlowPlayer();
+                    }
+                    
+                });
+            }
+		</script>
+				<script>
+            document.getElementById('player-loading').innerHTML = "";
+            if(flowplayer.support.browser.msie || navigator.userAgent.indexOf("Trident/7") > -1 ||
+               flowplayer.support.android ||
+               flowplayer.support.iOS) {
+                    document.getElementById('player-audio').innerHTML   = '            <div id="player-flow-html5" class="player-audio-element fp-playful"></div>            <div class="player-audio-hint"><a id="action-force-play" href="#" title="Clique para forçar a reprodução"><b><u class="text-primary">PRESSIONE</u> o botão <u class="text-success">PLAY</u> para reproduzir a rádio</b></a>, caso não toque automaticamente</div>            <noscript class="text-red">Para que a rádio toque, o seu navegador deve estar com o JavaScript ativado!</noscript>        ';
+                    initFlowPlayer();
+
+                    document.getElementById('action-force-play').addEventListener("click", function(e){
+                        flowplayer("#player-flow-html5").play();
+                        e.preventDefault();
+                    }, false);
+            }else{
+                    document.getElementById('player-audio').innerHTML  += '            <div id="player-muses" class="player-audio-element"></div>            <div class="player-audio-hint"><a id="action-force-play" href="#" title="Clique para forçar a reprodução"><b><u class="text-primary">PRESSIONE</u> o botão <u class="text-success">PLAY</u> para reproduzir a rádio</b></a>, caso não toque automaticamente</div>            <noscript class="text-red">Para que a rádio toque, o seu navegador deve estar com o JavaScript ativado!</noscript>        ';
+                    initMuses();
+
+                    document.getElementById('action-force-play').addEventListener("click", function(e){
+                        MRP.play();
+                        e.preventDefault();
+                    }, false);
+            }
+		</script>
+		<script>
+    $(function(){
+		setTimeout(ssec, '155597');
+		getExtras();
+
+		var tzNow = dayjs();
+		var tzOffset = tzNow.format("Z");
+
+		$.post("http://play.radios.com.br/ajax/player/schedule?tz="+encodeURIComponent(tzOffset), {radio: 30938, time: 1778446285, t:"8adbd278ddc0da9b56d6afb64f9a3546fa2d1e76cccab2731bc47d427cfb1780"})
+		.done(function(data){
+			if(data.onair){
+				$(".onair").html(data.onair.html);
+				$(".onair").fadeIn("slow");
+				$('.onair [data-toggle="tooltip"]').tooltip();
+			}
+		});
+
+		$.post("http://play.radios.com.br/ajax/player/votar",{radio: 30938, action: "load"})
+		.done(function(data){
+			$("#votacao-message").html(data["message"]);
+			$("#votacao-status").html(data["status"]);
+		})
+		.fail(function(){
+			$("#action-votar").removeClass("btn-success")
+							.addClass("btn-danger");
+			$("#votacao-status").html("Ocorreu um erro, tente novamente");
+		})
+		.always(function(){
+			$("#action-votar").removeAttr('disabled');
+		});
+		
+
+		$("#action-votar").on("click",function(){
+			$("#action-votar").removeClass("btn-danger")
+							.addClass("btn-success");
+			$("#votacao-status").html("Processando...");
+
+			var url = "http://play.radios.com.br/ajax/player/votar";
+			var params = {
+				radio: 30938,
+				r: "172885",
+				t: 1778446285,
+				t1: "362488257147555",
+				t2: "e22e7b3077998b333ed86ac52a04f9418bd806115fc029bd770093f71d533aaa",
+				action: "vote"
+			};
+
+			$.post(url,params)
+			.done(function(data){
+				$("#votacao-message").html(data["message"]);
+				$("#votacao-status").html(data["status"]);
+
+				if(data.success){
+					$("#votacao-message").prepend('<i class="fa fa-check fa-lg text-success"></i> ');
+				}
+
+				if(data.error){
+					$("#action-votar").removeClass("btn-success")
+									.addClass("btn-danger");
+				}
+			})
+			.fail(function(){
+				$("#action-votar").removeClass("btn-success")
+								.addClass("btn-danger");
+				$("#votacao-status").html("Ocorreu um erro, tente novamente");
+			})
+		});
+
+		$(".action-ajuda-anuncios").on("click", function(e){
+			$("#ajuda-anuncios-modal").modal();
+			e.preventDefault();
+		});
+
+		$(".action-ajuda-open-link").on("click", function() {
+			$("#ajuda-radio-modal").modal("hide");
+		});
+
+		$(".action-ajuda-radio").on("click", function(e){
+			$("#ajuda-load").html("");
+			$("#ajuda-loading .loading-panel").hide();
+			$("#ajuda-radio-modal").modal();
+			e.preventDefault();
+		});
+
+		$(".action-ajuda-submit").on("click", function(e) {
+			var type = $(this).attr("data-type");
+
+			var url = "http://play.radios.com.br/ajax/player/ajuda";
+			var params = {
+				radio: 30938,
+				type: type,
+			}; 
+
+			$("#ajuda-load").html("");
+			$("#ajuda-loading .loading-panel").fadeIn();
+
+			$.post(url,params)
+			.done(function(html){
+				$("#ajuda-load").html(html);
+			})
+			.fail(function(){
+				$("#ajuda-load").html('<div class="alert-panel alert alert-danger alert-dismissible">'
+				+ '<button type="button" class="close" data-dismiss="alert">x</button>'
+				+ '<b>Erro!</b> A notificação não foi enviada. Por favor, tente novamente mais tarde. <a href="#" data-dismiss="modal">Fechar</a>'
+				+ '</div>');
+			})
+			.always(function(){
+				$("#ajuda-loading .loading-panel").hide();
+			});
+			e.preventDefault();
+
+		});
+
+		function ssec() {
+			var url = "http://play.radios.com.br/ajax/player/ssec";
+			var params = {
+				radio: 30938,
+				r: "172885",
+				t: 1778446285,
+				t1: "362488257147555",
+				t2: "e22e7b3077998b333ed86ac52a04f9418bd806115fc029bd770093f71d533aaa",
+			};
+
+			$.post(url,params)
+			.done(function(data){
+							});
+		}
+
+		function getExtras(){
+			var url = "http://play.radios.com.br/ajax/player/extras";
+			var params = {
+				radio: 30938			};
+			
+			$.post(url,params)
+			.done(function(data){
+				if(data){
+					$("body").append(data);
+				}
+			});
+		}
+
+    });
+
+</script>
+</body>
+</html>
+
