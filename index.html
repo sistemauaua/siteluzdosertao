@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rádio Comunitária Luz do Sertão FM - 87,9 MHz. A voz do nosso povo, cultura e música.">
+    <title>Luz do Sertão FM | 87,9 MHz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrapper">
+            <div class="logo">
+                <img src="logo_site.png" alt="Luz do Sertão FM 87,9" style="height: 60px;">
+            </div>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#programacao">Programação</a></li>
+                    <li><a href="#historico">Histórico</a></li>
+                    <li><a href="#diretoria">Diretoria</a></li>
+                    <li><a href="#entidades">Entidades</a></li>
+                    <li><a href="#reunioes">Reuniões</a></li>
+                    <li><a href="#assembleias">Assembleias</a></li>
+                    <li><a href="#transmissoes">Transmissões</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" onclick="toggleMenu()">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main id="inicio">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">A Rádio que brilha com você</span>
+                    <h1>Luz do Sertão <br><span style="color: var(--solar-yellow);">87,9 FM</span></h1>
+                    <p>Cultura, música e informação com o jeito do nosso povo. Sintonize na freqüência que conecta o sertão com o mundo.</p>
+                    <div style="display: flex; gap: 20px;">
+                        <a href="#programacao" class="cta-btn" style="background: var(--organic-green);">Ver Programação</a>
+                        <a href="https://wa.me/5500000000000" target="_blank" class="cta-btn" style="background: #25D366; border: none;">
+                            <i data-lucide="message-circle"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="player-hub">
+                    <div class="player-main-content">
+                        <div class="player-info">
+                            <span class="status-badge"><div class="live-dot"></div> AO VIVO</span>
+                            <h3 id="current-show">PARADA POPULAR</h3>
+                            <p id="current-host-line">com o Comunicador <span id="current-host" class="font-heading">JADILSON REIS</span></p>
+                            
+                            <div class="visualizer-bars" id="visualizer">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+
+                            <button class="main-play-btn" id="playBtn" onclick="togglePlayback()">
+                                <i data-lucide="play" id="playIcon"></i>
+                            </button>
+
+                            <p id="current-time-range" class="time-range">22:00 ÀS 22:50</p>
+                        </div>
+                        
+                        <div class="host-image-container">
+                            <img src="assets/Jadilson_Reis.png" id="host-photo" alt="Comunicador">
+                        </div>
+                    </div>
+
+                    <div class="player-footer">
+                        <p>Volume</p>
+                        <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="0.8" oninput="updateVolume(this.value)">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Schedule Section -->
+        <section id="programacao">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Grade de Programação</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="schedule-grid">
+                    <!-- Segunda a Sexta -->
+                    <h3 class="schedule-day-title">Segunda a Sexta-Feira</h3>
+                    
+                    <div class="schedule-card">
+                        <span class="schedule-time">05:00 - 06:00</span>
+                        <h3 class="schedule-name">Raiando o Dia</h3>
+                        <p>com Leidiano</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">06:00 - 06:20</span>
+                        <h3 class="schedule-name">Uma Luz em Seu Caminho</h3>
+                        <p>com NÃO INFORMADO</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">06:20 - 08:00</span>
+                        <h3 class="schedule-name">Programa Amanhecer Sertanejo</h3>
+                        <p>com Valdemir Batista</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">08:00 - 10:00</span>
+                        <h3 class="schedule-name">Programa Show da Manhã</h3>
+                        <p>com Mannoel Mix</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">10:00 - 12:00</span>
+                        <h3 class="schedule-name">Programa Super Manhã</h3>
+                        <p>com Jota Neto</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">12:00 - 13:00</span>
+                        <h3 class="schedule-name">Programa A Hora do Bode</h3>
+                        <p>com Robson Rodrigues</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">13:00 - 15:00</span>
+                        <h3 class="schedule-name">Programa Tarde Interativa</h3>
+                        <p>com Jadilson Reis</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">15:00 - 17:00</span>
+                        <h3 class="schedule-name">Programa Tarde de Sucessos</h3>
+                        <p>com Tiago Moreno</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">17:00 - 19:00</span>
+                        <h3 class="schedule-name">Programa Isso é Sertão</h3>
+                        <p>com Chico Mocó</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">19:00 - 20:00</span>
+                        <h3 class="schedule-name">A Voz do Brasil</h3>
+                        <p>com A Voz do Brasil</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">20:00 - 22:00</span>
+                        <h3 class="schedule-name">A Voz do Cooperativismo</h3>
+                        <p>com COOPERCUC</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">22:00 - 00:00</span>
+                        <h3 class="schedule-name">Programa Momento de Amor</h3>
+                        <p>com Willian Gonzaga</p>
+                    </div>
+
+                    <!-- Sábado -->
+                    <h3 class="schedule-day-title">Sábado</h3>
+                    
+                    <div class="schedule-card">
+                        <span class="schedule-time">06:00 - 08:00</span>
+                        <h3 class="schedule-name">Programa Amanhecer Sertanejo</h3>
+                        <p>com Valdemir Batista</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">08:00 - 09:00</span>
+                        <h3 class="schedule-name">A Voz do Cooperativismo</h3>
+                        <p>com A Voz do Cooperativismo</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">09:00 - 09:15</span>
+                        <h3 class="schedule-name">Programa Viva a Vida</h3>
+                        <p>com Pastoral da Criança</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">09:15 - 10:30</span>
+                        <h3 class="schedule-name">Programa Meu Bom Deus</h3>
+                        <p>com Igreja Católica</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">10:30 - 11:30</span>
+                        <h3 class="schedule-name">Programa Tempo de Cuidar</h3>
+                        <p>com Comitê Ambiental de Uauá</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">11:30 - 12:30</span>
+                        <h3 class="schedule-name">Programa Viva Bem no Sertão</h3>
+                        <p>com IRPAA</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">12:30 - 14:00</span>
+                        <h3 class="schedule-name">Programa Conexão Musical</h3>
+                        <p>com Acássio Teles</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">14:00 - 15:30</span>
+                        <h3 class="schedule-name">Programa A Voz da Profecia</h3>
+                        <p>com Igreja Adventista</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">15:30 - 16:00</span>
+                        <h3 class="schedule-name">Programa Eufonia</h3>
+                        <p>com UNEB</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">16:00 - 17:00</span>
+                        <h3 class="schedule-name">Programa Igreja Tabernáculo da Fé</h3>
+                        <p>com Religioso</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">17:00 - 19:00</span>
+                        <h3 class="schedule-name">Programa Uauá, Bahia, Brasil, Pandeiro</h3>
+                        <p>com Pedro Peixinho</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">19:00 - 21:00</span>
+                        <h3 class="schedule-name">Programa Toca Tudo</h3>
+                        <p>com Willian Gonzaga</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">21:00 - 23:00</span>
+                        <h3 class="schedule-name">Programa Noite de Sucessos</h3>
+                        <p>com Hilário Ortega</p>
+                    </div>
+
+                    <!-- Domingo -->
+                    <h3 class="schedule-day-title">Domingo</h3>
+                    
+                    <div class="schedule-card">
+                        <span class="schedule-time">06:00 - 08:00</span>
+                        <h3 class="schedule-name">Programa Baú da Saudade</h3>
+                        <p>com Jota Neto</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">08:00 - 09:15</span>
+                        <h3 class="schedule-name">Programa Missa Dominical</h3>
+                        <p>com Igreja Católica</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">09:15 - 11:00</span>
+                        <h3 class="schedule-name">Programa Berro do Bode</h3>
+                        <p>com BGG da Mata Virgem</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">11:00 - 13:00</span>
+                        <h3 class="schedule-name">Programa Parada Popular</h3>
+                        <p>com Jadilson Reis</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">13:00 - 14:30</span>
+                        <h3 class="schedule-name">Rádio Luz do Sertão</h3>
+                        <p>com Rádio Luz do Sertão</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">14:30 - 16:00</span>
+                        <h3 class="schedule-name">Programa Vida Nova com Cristo</h3>
+                        <p>com Igreja Batista</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">16:00 - 19:00</span>
+                        <h3 class="schedule-name">Programa Rock-Reggae Musical</h3>
+                        <p>com Hilário Ortega</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">19:00 - 21:30</span>
+                        <h3 class="schedule-name">Rádio Luz do Sertão</h3>
+                        <p>com Rádio Luz do Sertão</p>
+                    </div>
+                    <div class="schedule-card">
+                        <span class="schedule-time">21:30 - 00:00</span>
+                        <h3 class="schedule-name">Rádio Luz do Sertão</h3>
+                        <p>com Rádio Luz do Sertão</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Histórico Section -->
+        <section id="historico" style="background: white;">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nossa História</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="content-split">
+                    <div class="text-block">
+                        <p>A Rádio Comunitária Luz do Sertão FM nasceu do sonho de integrar a comunidade e dar voz ao povo sertanejo. Fundada em [Ano], nossa trajetória é marcada pela resistência cultural e pelo compromisso com a informação de qualidade.</p>
+                        <p>Desde o início, buscamos iluminar as questões sociais, políticas e culturais da nossa região, tornando-nos um pilar fundamental da comunicação local.</p>
+                    </div>
+                    <div class="image-block">
+                        <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=800" alt="História da Rádio" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow-lg);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diretoria Section -->
+        <section id="diretoria">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nossa Diretoria</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="profile-grid">
+                    <div class="profile-card">
+                        <div class="profile-img"></div>
+                        <h3>Nome do Presidente</h3>
+                        <p>Presidente</p>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-img"></div>
+                        <h3>Nome do Vice</h3>
+                        <p>Vice-Presidente</p>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-img"></div>
+                        <h3>Nome do Tesoureiro</h3>
+                        <p>Tesoureiro(a)</p>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-img"></div>
+                        <h3>Nome do Secretário</h3>
+                        <p>Secretário(a)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Entidades Fundadoras -->
+        <section id="entidades" style="background: white;">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Entidades Fundadoras</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="entities-list">
+                    <div class="entity-item">Associação de Moradores de [Bairro]</div>
+                    <div class="entity-item">Cooperativa de Agricultores [Nome]</div>
+                    <div class="entity-item">Sindicato dos Trabalhadores Rurais</div>
+                    <div class="entity-item">Centro Cultural [Nome]</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reuniões e Assembleias -->
+        <section id="reunioes">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Transparência e Participação</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="transparency-grid">
+                    <div class="document-card" id="reunioes-list">
+                        <i data-lucide="users"></i>
+                        <h3>Reuniões Mensais</h3>
+                        <p>Acesse as pautas e decisões das nossas reuniões ordinárias.</p>
+                        <a href="#" class="cta-btn" style="margin-top: 15px; background: var(--primary-blue);">Ver Histórico</a>
+                    </div>
+                    <div class="document-card" id="assembleias">
+                        <i data-lucide="file-text"></i>
+                        <h3>Assembleias Gerais</h3>
+                        <p>Documentação e editais de convocação para nossas assembleias.</p>
+                        <a href="#" class="cta-btn" style="margin-top: 15px; background: var(--organic-green);">Ver Editais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transmissões -->
+        <section id="transmissoes" style="background: white;">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Últimas Transmissões</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-thumb" style="background-image: url('https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&q=80&w=800');">
+                            <i data-lucide="play"></i>
+                        </div>
+                        <h4>Cobertura Especial: Festa da Cidade</h4>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-thumb" style="background-image: url('https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=800');">
+                            <i data-lucide="play"></i>
+                        </div>
+                        <h4>Entrevista: Desafios do Sertão em 2026</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="noticias" style="background: #fff;">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Destaques da Semana</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=800');"></div>
+                        <div class="news-body">
+                            <span class="news-category">Cultura</span>
+                            <h3>Festival de Cultura Sertaneja agita a região</h3>
+                            <p>Evento reúne artistas locais e celebra as raízes da nossa terra.</p>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=800');"></div>
+                        <div class="news-body">
+                            <span class="news-category">Cidade</span>
+                            <h3>Novas obras de infraestrutura começam amanhã</h3>
+                            <p>Prefeitura anuncia pavimentação de diversas ruas no centro.</p>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800');"></div>
+                        <div class="news-body">
+                            <span class="news-category">Meio Ambiente</span>
+                            <h3>Campanha de reflorestamento planta 1.000 árvores</h3>
+                            <p>Ação comunitária visa preservar as nascentes locais.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h2 class="font-heading" style="color: var(--solar-yellow); margin-bottom: 15px;">Luz do Sertão FM</h2>
+                <p style="opacity: 0.7;">Há mais de 10 anos sendo a voz que ilumina o sertão. 87,9 MHz - Sintonize com a gente.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i data-lucide="instagram"></i></a>
+                    <a href="#" class="social-icon"><i data-lucide="facebook"></i></a>
+                    <a href="#" class="social-icon"><i data-lucide="youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Links Úteis</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#programacao">Programação</a></li>
+                    <li><a href="#historico">Histórico</a></li>
+                    <li><a href="#diretoria">Diretoria</a></li>
+                    <li><a href="#reunioes">Transparência</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col" id="contato">
+                <h4>Contato</h4>
+                <ul class="footer-links" style="opacity: 0.7;">
+                    <li><i data-lucide="map-pin" style="display: inline; width: 16px;"></i> Rua da Rádio, 123 - Centro</li>
+                    <li><i data-lucide="phone" style="display: inline; width: 16px;"></i> (00) 0000-0000</li>
+                    <li><i data-lucide="mail" style="display: inline; width: 16px;"></i> contato@luzdosertao.fm</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luz do Sertão FM 87,9 MHz. Desenvolvido com ❤️ pela comunidade.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

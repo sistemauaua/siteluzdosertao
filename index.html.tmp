@@ -1,0 +1,32 @@
+                <div class="player-hub">
+                    <div class="player-main-content">
+                        <div class="player-info">
+                            <span class="status-badge"><div class="live-dot"></div> AO VIVO</span>
+                            <h3 id="current-show">PARADA POPULAR</h3>
+                            <p id="current-host-line">com o Locutor <span id="current-host" class="font-heading">JADILSON REIS</span></p>
+                            
+                            <div class="visualizer-bars" id="visualizer">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+
+                            <button class="main-play-btn" id="playBtn" onclick="togglePlayback()">
+                                <i data-lucide="play" id="playIcon"></i>
+                            </button>
+
+                            <p id="current-time-range" class="time-range">22:00 ÀS 22:50</p>
+                        </div>
+                        
+                        <div class="host-image-container">
+                            <img src="assets/jadilson_reis.png" id="host-photo" alt="Locutor">
+                        </div>
+                    </div>
+
+                    <div class="player-footer">
+                        <p>Volume</p>
+                        <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="0.8" oninput="updateVolume(this.value)">
+                    </div>
+                </div>
