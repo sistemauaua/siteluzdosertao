@@ -78,13 +78,36 @@ function togglePlayback() {
     }
 }
 
+function toggleIframePlayer() {
+    const container = document.getElementById('iframe-player-container');
+    const iframe = document.getElementById('radio-iframe');
+    const errorMsg = document.getElementById('player-error-msg');
+    
+    if (container.style.display === 'none') {
+        // Pausa o áudio nativo se estiver tentando tocar
+        audio.pause();
+        isPlaying = false;
+        updatePlayButton();
+        
+        // Ativa o Iframe seguro
+        container.style.display = 'block';
+        iframe.src = 'https://www.radios.com.br/iframe/43389';
+        if (errorMsg) errorMsg.style.display = 'none';
+        console.log("Modo Seguro ativado via Iframe.");
+    } else {
+        // Desativa o Iframe
+        container.style.display = 'none';
+        iframe.src = '';
+    }
+}
+
+// Mantém a função de popup como alternativa secundária no console se necessário
 function openPopupPlayer() {
     const width = 400;
     const height = 150;
     const left = (window.screen.width / 2) - (width / 2);
     const top = (window.screen.height / 2) - (height / 2);
     
-    // Abre o player original do servidor que não sofre bloqueio HTTPS por estar em janela própria
     window.open(
         'http://144.217.254.187:7506/index.html?sid=1', 
         'RadioLuzDoSertaoPlayer', 
