@@ -52,7 +52,8 @@ const schedule = [
 
 // Audio Context
 let isPlaying = false;
-const streamUrl = "http://144.217.254.187:7506/;"; // IP direto para maior estabilidade
+// Usamos o caminho relativo "/stream" que será processado pela nossa "Ponte" (Proxy) no Vercel
+const streamUrl = "/stream"; 
 let audio = new Audio();
 audio.volume = 0.8; 
 
