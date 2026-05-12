@@ -1,18 +1,18 @@
 const http = require('http');
 
 export default function handler(req, res) {
-    // O link da sua rádio
+    // Link direto da rádio com o ponto e vírgula para forçar o stream
     const radioUrl = 'http://144.217.254.187:7506/;';
 
-    // Configuramos para AAC+, que é o formato real da sua rádio
-    res.setHeader('Content-Type', 'audio/aacp');
-    res.setHeader('Transfer-Encoding', 'chunked');
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    // Cabeçalhos para enganar o bloqueio e garantir o áudio
+    res.setHeader('Content-Type', 'audio/mpeg');
     res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Cache-Control', 'no-cache');
 
     const options = {
         headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Icy-MetaData': '0'
         }
     };
 
@@ -21,7 +21,7 @@ export default function handler(req, res) {
     });
 
     proxyReq.on('error', (err) => {
-        console.error('Erro no Proxy:', err);
+        console.error('Erro na ponte:', err);
         res.end();
     });
 
