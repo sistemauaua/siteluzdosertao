@@ -53,21 +53,29 @@ const schedule = [
 // Audio Context
 let isPlaying = false;
 const streamUrl = "http://stm1.uauhost.com.br:7506/;"; // Suffix ';' is more compatible for Shoutcast streams
-let audio = new Audio(streamUrl); 
+let audio = new Audio(); // Inicializa sem SRC para ser definido no clique
 audio.volume = 0.8; 
 
 function togglePlayback() {
-    if (audio.paused) {
-        // Reinicia o src para evitar delay de buffering acumulado
-        audio.src = streamUrl;
-        audio.load();
-        audio.play().catch(error => {
-            console.error("Erro ao reproduzir áudio:", error);
+    if (audio.paused || !isPlaying) {
+        // Define o src no momento do clique para autorização total do navegador
+        if (!audio.src || audio.src === "" || audio.src.includes('null')) {
+            audio.src = streamUrl;
+        }
+        
+        audio.play().then(() => {
+            console.log("Áudio desbloqueado e tocando.");
+        }).catch(error => {
+            console.error("Erro ao desbloquear áudio:", error);
+            // Fallback: tentar recarregar o stream
+            audio.src = streamUrl;
+            audio.load();
+            audio.play().catch(e => console.error("Falha crítica no play:", e));
         });
     } else {
         audio.pause();
-        // Limpa o src ao pausar para parar o download do stream em background
-        audio.src = "";
+        // Opcional: manter o src para retomada rápida, ou limpar para poupar dados
+        // audio.src = ""; 
     }
 }
 
@@ -190,16 +198,6 @@ function toggleMenu() {
 document.addEventListener('DOMContentLoaded', () => {
     updateCurrentProgram();
     setInterval(updateCurrentProgram, 1000); // Verificação a cada 1 segundo para precisão exata
-});
-
-// Hack para contornar o bloqueio: Tocar no primeiro clique em QUALQUER lugar da página
-document.body.addEventListener('click', function firstInteraction() {
-    if (audio.paused && !isPlaying) {
-        audio.src = streamUrl;
-        audio.load();
-        audio.play().catch(() => {});
-    }
-    document.body.removeEventListener('click', firstInteraction);
 });
 
 // Smooth Scroll
