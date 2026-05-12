@@ -68,18 +68,11 @@
                                 <div class="bar"></div>
                             </div>
 
-                            <button class="main-play-btn" id="playBtn" onclick="togglePlayback()">
-                                <i data-lucide="play" id="playIcon"></i>
-                            </button>
-
-                            <p id="current-time-range" class="time-range">22:00 ÀS 22:50</p>
+                            <p id="current-time-range" class="time-range">Sintonize agora!</p>
                             
-                            <!-- Player Nativo solicitado pelo usuário -->
-                            <div style="margin: 15px 0; width: 100%;">
-                                <audio controls style="width: 100%; height: 40px; border-radius: 8px;">
-                                    <source src="/stream" type="audio/mpeg">
-                                    Seu navegador não suporta o player.
-                                </audio>
+                            <!-- Player de Alta Compatibilidade -->
+                            <div style="margin: 20px 0; width: 100%;">
+                                <iframe src="https://www.radios.com.br/iframe/43387" width="100%" height="80" frameborder="0" scrolling="no" style="border-radius: 8px; background: rgba(0,0,0,0.1);"></iframe>
                             </div>
                         </div>
                         
@@ -89,21 +82,7 @@
                     </div>
 
                     <div class="player-footer">
-                        <div id="player-error-msg" style="display: none; font-size: 0.7rem; color: #ffeb3b; margin-bottom: 8px; text-align: center; background: rgba(0,0,0,0.3); padding: 5px; border-radius: 4px;">
-                            O som não saiu? Tente o modo de compatibilidade:
-                        </div>
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
-                            <p style="margin: 0;">Volume</p>
-                            <button onclick="toggleIframePlayer()" class="external-link" id="iframe-toggle" style="background: none; border: none; cursor: pointer; font-family: inherit; font-size: 0.75rem; color: var(--primary-blue); text-decoration: underline; display: flex; align-items: center; gap: 4px; padding: 0;">
-                                <i data-lucide="shield-check" style="width: 12px;"></i> Modo Seguro
-                            </button>
-                        </div>
-                        <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="0.8" oninput="updateVolume(this.value)">
-                        
-                        <!-- Iframe player oculto para fallback de segurança -->
-                        <div id="iframe-player-container" style="display: none; margin-top: 10px;">
-                            <iframe id="radio-iframe" src="" width="100%" height="60" frameborder="0" scrolling="no"></iframe>
-                        </div>
+                        <!-- Rodapé simplificado -->
                     </div>
                 </div>
             </div>
