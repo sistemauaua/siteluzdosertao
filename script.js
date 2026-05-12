@@ -52,31 +52,43 @@ const schedule = [
 
 // Audio Context
 let isPlaying = false;
-const streamUrl = "http://stm1.uauhost.com.br:7506/;"; // Suffix ';' is more compatible for Shoutcast streams
-let audio = new Audio(); // Inicializa sem SRC para ser definido no clique
+const streamUrl = "http://144.217.254.187:7506/;"; // IP direto para maior estabilidade
+let audio = new Audio();
 audio.volume = 0.8; 
 
 function togglePlayback() {
+    const errorMsg = document.getElementById('player-error-msg');
     if (audio.paused || !isPlaying) {
-        // Define o src no momento do clique para autorização total do navegador
         if (!audio.src || audio.src === "" || audio.src.includes('null')) {
             audio.src = streamUrl;
         }
         
         audio.play().then(() => {
-            console.log("Áudio desbloqueado e tocando.");
+            if (errorMsg) errorMsg.style.display = 'none';
         }).catch(error => {
-            console.error("Erro ao desbloquear áudio:", error);
-            // Fallback: tentar recarregar o stream
-            audio.src = streamUrl;
+            console.error("Erro ao reproduzir:", error);
+            if (errorMsg) errorMsg.style.display = 'block';
+            // Tentativa de recarregar
             audio.load();
-            audio.play().catch(e => console.error("Falha crítica no play:", e));
+            audio.play().catch(() => {});
         });
     } else {
         audio.pause();
-        // Opcional: manter o src para retomada rápida, ou limpar para poupar dados
-        // audio.src = ""; 
     }
+}
+
+function openPopupPlayer() {
+    const width = 400;
+    const height = 150;
+    const left = (window.screen.width / 2) - (width / 2);
+    const top = (window.screen.height / 2) - (height / 2);
+    
+    // Abre o player original do servidor que não sofre bloqueio HTTPS por estar em janela própria
+    window.open(
+        'http://144.217.254.187:7506/index.html?sid=1', 
+        'RadioLuzDoSertaoPlayer', 
+        `width=${width},height=${height},left=${left},top=${top},menubar=no,toolbar=no,location=no,status=no,scrollbars=no`
+    );
 }
 
 // Sincroniza a interface com o estado real do áudio (útil para autoplay)
