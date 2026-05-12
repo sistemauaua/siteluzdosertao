@@ -52,31 +52,22 @@ const schedule = [
 
 // Audio Context
 let isPlaying = false;
-const streamUrl = "http://stm1.uauhost.com.br:7506/stream";
+const streamUrl = "http://stm1.uauhost.com.br:7506/;"; // Suffix ';' is more compatible for Shoutcast streams
 let audio = new Audio(streamUrl); 
 audio.volume = 0.8; 
-audio.autoplay = true;
-
-// Adicionar evento para detectar erro de carregamento do áudio
-audio.addEventListener('error', (e) => {
-    console.error("Erro no stream de áudio:", e);
-    // Tenta um fallback comum para Shoutcast se o principal falhar
-    if (audio.src.includes('/stream')) {
-        console.log("Tentando fallback do stream...");
-        audio.src = "http://stm1.uauhost.com.br:7506/;";
-        audio.load();
-        if (isPlaying) audio.play().catch(() => {});
-    }
-});
 
 function togglePlayback() {
     if (audio.paused) {
+        // Reinicia o src para evitar delay de buffering acumulado
+        audio.src = streamUrl;
+        audio.load();
         audio.play().catch(error => {
             console.error("Erro ao reproduzir áudio:", error);
-            // Autoplay falhou silenciosamente ou clique foi bloqueado
         });
     } else {
         audio.pause();
+        // Limpa o src ao pausar para parar o download do stream em background
+        audio.src = "";
     }
 }
 
@@ -199,15 +190,13 @@ function toggleMenu() {
 document.addEventListener('DOMContentLoaded', () => {
     updateCurrentProgram();
     setInterval(updateCurrentProgram, 1000); // Verificação a cada 1 segundo para precisão exata
-    
-    // Tentativa de Autoplay
-    // Nota: Navegadores modernos podem bloquear autoplay de áudio sem interação prévia do usuário.
-    togglePlayback();
 });
 
 // Hack para contornar o bloqueio: Tocar no primeiro clique em QUALQUER lugar da página
 document.body.addEventListener('click', function firstInteraction() {
-    if (audio.paused) {
+    if (audio.paused && !isPlaying) {
+        audio.src = streamUrl;
+        audio.load();
         audio.play().catch(() => {});
     }
     document.body.removeEventListener('click', firstInteraction);
