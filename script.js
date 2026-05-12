@@ -145,11 +145,14 @@ function updateVolume(val) {
 // Visualizer Logic
 let visualizerInterval;
 function startVisualizer() {
+    if (visualizerInterval) clearInterval(visualizerInterval);
     visualizerInterval = setInterval(() => {
-        visualizerBars.forEach(bar => {
-            const height = Math.floor(Math.random() * 25) + 5;
-            bar.style.height = `${height}px`;
-        });
+        if (!audio.paused) {
+            visualizerBars.forEach(bar => {
+                const height = Math.floor(Math.random() * 25) + 5;
+                bar.style.height = `${height}px`;
+            });
+        }
     }, 150);
 }
 
