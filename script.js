@@ -59,19 +59,31 @@ audio.volume = 0.8;
 
 function togglePlayback() {
     const errorMsg = document.getElementById('player-error-msg');
+    const playBtnText = document.getElementById('current-show'); // Usamos o título como feedback temporário
+    
     if (audio.paused || !isPlaying) {
         if (!audio.src || audio.src === "" || audio.src.includes('null')) {
             audio.src = streamUrl;
         }
         
+        console.log("Tentando tocar:", streamUrl);
+        if (errorMsg) {
+            errorMsg.style.display = 'block';
+            errorMsg.textContent = 'Carregando rádio...';
+            errorMsg.style.color = '#fff';
+        }
+
         audio.play().then(() => {
+            console.log("Tocando com sucesso!");
             if (errorMsg) errorMsg.style.display = 'none';
         }).catch(error => {
             console.error("Erro ao reproduzir:", error);
-            if (errorMsg) errorMsg.style.display = 'block';
-            // Tentativa de recarregar
+            if (errorMsg) {
+                errorMsg.style.display = 'block';
+                errorMsg.textContent = 'Erro ao carregar som. Tente o Modo Seguro abaixo.';
+                errorMsg.style.color = '#ffeb3b';
+            }
             audio.load();
-            audio.play().catch(() => {});
         });
     } else {
         audio.pause();
